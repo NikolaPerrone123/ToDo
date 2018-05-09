@@ -56,15 +56,55 @@
 		9350BF6920A34778009E9297 /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
-				9350BF6A20A34778009E9297 /* AppDelegate.swift */,
-				9350BF6C20A34778009E9297 /* ViewController.swift */,
-				9350BF6E20A34778009E9297 /* Main.storyboard */,
+				9350BF8320A347C3009E9297 /* SupportFiles */,
+				9350BF8220A347A5009E9297 /* Utilities */,
+				9350BF8120A3479C009E9297 /* Controllers */,
+				9350BF7F20A34789009E9297 /* Models */,
+				9350BF8020A34793009E9297 /* Views */,
 				9350BF7420A3477A009E9297 /* Assets.xcassets */,
-				9350BF7620A3477A009E9297 /* LaunchScreen.storyboard */,
 				9350BF7920A3477A009E9297 /* Info.plist */,
 				9350BF7120A34778009E9297 /* ToDo.xcdatamodeld */,
 			);
 			path = ToDo;
+			sourceTree = "<group>";
+		};
+		9350BF7F20A34789009E9297 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9350BF8020A34793009E9297 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9350BF6E20A34778009E9297 /* Main.storyboard */,
+				9350BF7620A3477A009E9297 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9350BF8120A3479C009E9297 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9350BF6C20A34778009E9297 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9350BF8220A347A5009E9297 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9350BF8320A347C3009E9297 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9350BF6A20A34778009E9297 /* AppDelegate.swift */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
