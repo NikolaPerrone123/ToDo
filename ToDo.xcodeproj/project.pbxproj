@@ -7,17 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9306B51D20A98A9A00EC9DCE /* ProjectDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9306B51C20A98A9A00EC9DCE /* ProjectDetailsVC.swift */; };
+		9306B51F20A98ABD00EC9DCE /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9306B51E20A98ABD00EC9DCE /* Utilities.swift */; };
+		9306B52120A9E20400EC9DCE /* ProjectCreateEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9306B52020A9E20400EC9DCE /* ProjectCreateEditVC.swift */; };
+		9306B52320A9FAAB00EC9DCE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9306B52220A9FAAB00EC9DCE /* Constants.swift */; };
 		9350BF6B20A34778009E9297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350BF6A20A34778009E9297 /* AppDelegate.swift */; };
 		9350BF7020A34778009E9297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9350BF6E20A34778009E9297 /* Main.storyboard */; };
 		9350BF7320A34778009E9297 /* ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9350BF7120A34778009E9297 /* ToDo.xcdatamodeld */; };
 		9350BF7520A3477A009E9297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9350BF7420A3477A009E9297 /* Assets.xcassets */; };
 		9350BF7820A3477A009E9297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9350BF7620A3477A009E9297 /* LaunchScreen.storyboard */; };
 		9350BF8520A34D26009E9297 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350BF8420A34D26009E9297 /* LogInVC.swift */; };
+		93753BF720A8B57B00ECB4EF /* ProjectsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93753BF620A8B57B00ECB4EF /* ProjectsListVC.swift */; };
+		93753BF920A8B59900ECB4EF /* TasksListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93753BF820A8B59900ECB4EF /* TasksListVC.swift */; };
+		93753BFB20A8B5B300ECB4EF /* SubTasksListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93753BFA20A8B5B300ECB4EF /* SubTasksListVC.swift */; };
+		93753BFD20A8B5C700ECB4EF /* WorkersListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93753BFC20A8B5C700ECB4EF /* WorkersListVC.swift */; };
+		93753BFF20A8B5DD00ECB4EF /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93753BFE20A8B5DD00ECB4EF /* SettingsVC.swift */; };
+		93753C0320A8B8AA00ECB4EF /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93753C0120A8B8AA00ECB4EF /* ProjectTableViewCell.swift */; };
+		93753C0420A8B8AA00ECB4EF /* ProjectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93753C0220A8B8AA00ECB4EF /* ProjectTableViewCell.xib */; };
 		EF805C2E74B3D7FCFDD50CC4 /* Pods_ToDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E00A4F38C940633D010430 /* Pods_ToDo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7779D5B5D8A63C600C488E2B /* Pods-ToDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToDo/Pods-ToDo.debug.xcconfig"; sourceTree = "<group>"; };
+		9306B51C20A98A9A00EC9DCE /* ProjectDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailsVC.swift; sourceTree = "<group>"; };
+		9306B51E20A98ABD00EC9DCE /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		9306B52020A9E20400EC9DCE /* ProjectCreateEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCreateEditVC.swift; sourceTree = "<group>"; };
+		9306B52220A9FAAB00EC9DCE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9350BF6720A34778009E9297 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9350BF6A20A34778009E9297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9350BF6F20A34778009E9297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -26,6 +41,13 @@
 		9350BF7720A3477A009E9297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9350BF7920A3477A009E9297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9350BF8420A34D26009E9297 /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		93753BF620A8B57B00ECB4EF /* ProjectsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsListVC.swift; sourceTree = "<group>"; };
+		93753BF820A8B59900ECB4EF /* TasksListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListVC.swift; sourceTree = "<group>"; };
+		93753BFA20A8B5B300ECB4EF /* SubTasksListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTasksListVC.swift; sourceTree = "<group>"; };
+		93753BFC20A8B5C700ECB4EF /* WorkersListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkersListVC.swift; sourceTree = "<group>"; };
+		93753BFE20A8B5DD00ECB4EF /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		93753C0120A8B8AA00ECB4EF /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
+		93753C0220A8B8AA00ECB4EF /* ProjectTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectTableViewCell.xib; sourceTree = "<group>"; };
 		96CFFB9E65A7EF2E32F3FCED /* Pods-ToDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToDo/Pods-ToDo.release.xcconfig"; sourceTree = "<group>"; };
 		C8E00A4F38C940633D010430 /* Pods_ToDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -57,6 +79,56 @@
 				96CFFB9E65A7EF2E32F3FCED /* Pods-ToDo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9306B51620A989FE00EC9DCE /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				93753BF620A8B57B00ECB4EF /* ProjectsListVC.swift */,
+				9306B51C20A98A9A00EC9DCE /* ProjectDetailsVC.swift */,
+				9306B52020A9E20400EC9DCE /* ProjectCreateEditVC.swift */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		9306B51720A98A1300EC9DCE /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				93753BF820A8B59900ECB4EF /* TasksListVC.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		9306B51820A98A1900EC9DCE /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				93753BFC20A8B5C700ECB4EF /* WorkersListVC.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		9306B51920A98A1F00EC9DCE /* Subtasks */ = {
+			isa = PBXGroup;
+			children = (
+				93753BFA20A8B5B300ECB4EF /* SubTasksListVC.swift */,
+			);
+			path = Subtasks;
+			sourceTree = "<group>";
+		};
+		9306B51A20A98A3300EC9DCE /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				93753BFE20A8B5DD00ECB4EF /* SettingsVC.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9306B51B20A98A5500EC9DCE /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				9350BF8420A34D26009E9297 /* LogInVC.swift */,
+			);
+			path = LogIn;
 			sourceTree = "<group>";
 		};
 		9350BF5E20A34778009E9297 = {
@@ -102,6 +174,7 @@
 		9350BF8020A34793009E9297 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				93753C0020A8B88800ECB4EF /* Cells */,
 				9350BF6E20A34778009E9297 /* Main.storyboard */,
 				9350BF7620A3477A009E9297 /* LaunchScreen.storyboard */,
 			);
@@ -111,7 +184,12 @@
 		9350BF8120A3479C009E9297 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				9350BF8420A34D26009E9297 /* LogInVC.swift */,
+				9306B51620A989FE00EC9DCE /* Projects */,
+				9306B51720A98A1300EC9DCE /* Tasks */,
+				9306B51920A98A1F00EC9DCE /* Subtasks */,
+				9306B51820A98A1900EC9DCE /* Workers */,
+				9306B51A20A98A3300EC9DCE /* Settings */,
+				9306B51B20A98A5500EC9DCE /* LogIn */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -119,6 +197,8 @@
 		9350BF8220A347A5009E9297 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				9306B51E20A98ABD00EC9DCE /* Utilities.swift */,
+				9306B52220A9FAAB00EC9DCE /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -129,6 +209,15 @@
 				9350BF6A20A34778009E9297 /* AppDelegate.swift */,
 			);
 			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		93753C0020A8B88800ECB4EF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				93753C0120A8B8AA00ECB4EF /* ProjectTableViewCell.swift */,
+				93753C0220A8B8AA00ECB4EF /* ProjectTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +283,7 @@
 				9350BF7820A3477A009E9297 /* LaunchScreen.storyboard in Resources */,
 				9350BF7520A3477A009E9297 /* Assets.xcassets in Resources */,
 				9350BF7020A34778009E9297 /* Main.storyboard in Resources */,
+				93753C0420A8B8AA00ECB4EF /* ProjectTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +320,7 @@
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
+				"${BUILT_PRODUCTS_DIR}/TTSegmentedControl/TTSegmentedControl.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -238,6 +329,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSegmentedControl.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -252,7 +344,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				9350BF7320A34778009E9297 /* ToDo.xcdatamodeld in Sources */,
+				93753C0320A8B8AA00ECB4EF /* ProjectTableViewCell.swift in Sources */,
+				9306B52120A9E20400EC9DCE /* ProjectCreateEditVC.swift in Sources */,
+				9306B51F20A98ABD00EC9DCE /* Utilities.swift in Sources */,
 				9350BF6B20A34778009E9297 /* AppDelegate.swift in Sources */,
+				93753BF920A8B59900ECB4EF /* TasksListVC.swift in Sources */,
+				93753BF720A8B57B00ECB4EF /* ProjectsListVC.swift in Sources */,
+				9306B52320A9FAAB00EC9DCE /* Constants.swift in Sources */,
+				93753BFB20A8B5B300ECB4EF /* SubTasksListVC.swift in Sources */,
+				93753BFF20A8B5DD00ECB4EF /* SettingsVC.swift in Sources */,
+				9306B51D20A98A9A00EC9DCE /* ProjectDetailsVC.swift in Sources */,
+				93753BFD20A8B5C700ECB4EF /* WorkersListVC.swift in Sources */,
 				9350BF8520A34D26009E9297 /* LogInVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
