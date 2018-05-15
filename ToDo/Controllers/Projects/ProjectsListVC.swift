@@ -70,4 +70,11 @@ extension ProjectsListVC: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableViewAutomaticDimension
     }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            projects.remove(at: indexPath.row)
+            projectTable.deleteRows(at: [indexPath], with: .fade)
+        }
+    }
 }

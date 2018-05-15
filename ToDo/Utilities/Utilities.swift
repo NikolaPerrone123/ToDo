@@ -22,7 +22,7 @@ open class Utilities: NSObject {
         let height = view.frame.size.height
         var device = Device.iPhone8
         
-        if height == 716 {
+        if height == 736 {
              device = Device.iPhonePlus
         } else if height == 812 {
              device = Device.iPhoneX
@@ -41,5 +41,11 @@ open class Utilities: NSObject {
     class func setButtonWithoutBorder(button: UIButton) {
         button.layer.cornerRadius = button.frame.height / 2
         button.layer.borderColor = UIColor.black.cgColor
+    }
+    
+    class func setButtonWithSpecRadius(button: UIButton, radius: CGFloat) {
+        button.layer.cornerRadius = radius
+        button.layer.borderColor = UIColor.black.cgColor
+        button.layer.borderWidth = 2.0
     }
 }

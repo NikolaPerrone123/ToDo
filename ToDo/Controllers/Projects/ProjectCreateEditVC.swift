@@ -20,6 +20,8 @@ class ProjectCreateEditVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let height = self.view.frame.size.height
+        print("Height \(height)")
         setViews()
     }
     
