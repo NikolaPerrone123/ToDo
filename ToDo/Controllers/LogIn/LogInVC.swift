@@ -14,12 +14,15 @@ class LogInVC: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var okButton: UIButton!
     
+    private var sharedInfo = SharedInfo.sharedInstance
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         let height = self.view.frame.size.height
         print("Height \(height)")
+        sharedInfo.getDevice(view: self.view)
        setButton()
     }
 

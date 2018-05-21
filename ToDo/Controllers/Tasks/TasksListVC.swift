@@ -16,7 +16,6 @@ class TasksListVC: UIViewController {
     @IBOutlet weak var segmentControl: TTSegmentedControl!
     @IBOutlet weak var tasksTableView: UITableView!
     
-    private let segmentTitles = ["To Do", "Active", "Test", "Done"]
     private let taskCellIdentifier = "TaskTableViewCell"
     private var tasks = ["1","2","3","f","f","g","g","g"]
     private let taskCreateEditVCIdentifier = "taskCreateEditVC"
@@ -30,17 +29,8 @@ class TasksListVC: UIViewController {
     
     func setViews() {
         Utilities.setButtonWithoutBorder(button: okSearchButton)
-        setSegmentControl()
+        Utilities.createSegmenStatusContorl(segment: segmentControl)
         setTableView()
-    }
-    
-    func setSegmentControl() {
-        segmentControl.itemTitles = segmentTitles
-        segmentControl.allowChangeThumbWidth = false
-        segmentControl.containerBackgroundColor = orangeColorForTextField
-        segmentControl.selectedTextColor = UIColor.black
-        segmentControl.thumbGradientColors = [brownColorForButton]
-        segmentControl.thumbColor = brownColorForButton
     }
     
     func setTableView(){
